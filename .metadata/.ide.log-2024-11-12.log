@@ -1,0 +1,43 @@
+2024-11-12 18:06:48,774 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-11-12 18:06:50,382 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 2417mS.
+2024-11-12 18:06:50,390 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 6mS.
+2024-11-12 18:06:50,395 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-12 18:14:11,176 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-12 18:14:11,236 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-12 18:14:43,777 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 451890272 Bytes (580911104)
+2024-11-12 18:14:47,820 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 473700256 Bytes (580911104)
+2024-11-12 18:21:10,152 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 409902664 Bytes (580911104)
+2024-11-12 18:21:11,582 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 453775896 Bytes (580911104)
+2024-11-12 18:21:14,267 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 264085576 Bytes (580911104)
+2024-11-12 18:21:14,612 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-12 18:21:14,612 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-12 18:21:14,612 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-12 18:21:14,612 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-12 18:21:14,612 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-12 18:21:14,613 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-11-12 18:21:14,725 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\license.tmp_save
+2024-11-12 18:21:14,877 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\license.tmp
+2024-11-12 18:21:14,958 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\gpio.tmp_save
+2024-11-12 18:21:15,092 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\gpio.tmp
+2024-11-12 18:21:15,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_it.c_save
+2024-11-12 18:21:15,511 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_it.c
+2024-11-12 18:21:15,532 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_it.h_save
+2024-11-12 18:21:15,641 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_it.h
+2024-11-12 18:21:15,710 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_hal_msp.c_save
+2024-11-12 18:21:15,906 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_hal_msp.c
+2024-11-12 18:21:15,929 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\system.tmp_save
+2024-11-12 18:21:16,010 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\system.tmp
+2024-11-12 18:21:16,079 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-11-12 18:21:16,202 [INFO] CodeEngine:335 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_hal_conf.h
+2024-11-12 18:21:16,312 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\main.h_save
+2024-11-12 18:21:16,476 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\main.h
+2024-11-12 18:21:16,510 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\main.c_save
+2024-11-12 18:21:16,754 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\main.c
+2024-11-12 18:21:17,611 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 579mS.
+2024-11-12 18:21:17,620 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-11-12 18:21:17,705 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-11-12 18:21:18,876 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1256mS.
+2024-11-12 18:21:18,878 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-11-12 18:21:18,882 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-12 20:06:34,847 [INFO] WebApp:189 - Connection lost
+2024-11-12 20:06:36,512 [INFO] WebApp:186 - Connection restablished

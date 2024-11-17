@@ -1,0 +1,51 @@
+2024-11-12 14:40:03,714 [INFO] WebApp:189 - Connection lost
+2024-11-12 14:40:04,316 [INFO] WebApp:186 - Connection restablished
+2024-11-12 14:42:33,276 [INFO] WebApp:189 - Connection lost
+2024-11-12 14:42:33,483 [INFO] WebApp:186 - Connection restablished
+2024-11-12 15:37:18,640 [INFO] WebApp:189 - Connection lost
+2024-11-12 15:37:25,713 [INFO] WebApp:186 - Connection restablished
+2024-11-12 15:37:27,715 [INFO] WebApp:189 - Connection lost
+2024-11-12 15:37:27,865 [INFO] WebApp:186 - Connection restablished
+2024-11-12 17:11:47,910 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-12 17:11:48,059 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-12 17:37:22,954 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 440236832 Bytes (580911104)
+2024-11-12 17:54:28,166 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-12 17:54:28,260 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-12 17:54:30,942 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-12 17:54:31,019 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-12 18:06:33,589 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 218156200 Bytes (580911104)
+2024-11-12 18:06:35,425 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 239127720 Bytes (580911104)
+2024-11-12 18:06:42,495 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 316722344 Bytes (580911104)
+2024-11-12 18:06:43,158 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-12 18:06:43,158 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-12 18:06:43,158 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-12 18:06:43,158 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-12 18:06:43,158 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-12 18:06:43,162 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-11-12 18:06:43,476 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\license.tmp_save
+2024-11-12 18:06:44,062 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\license.tmp
+2024-11-12 18:06:44,245 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\gpio.tmp_save
+2024-11-12 18:06:44,455 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\gpio.tmp
+2024-11-12 18:06:44,793 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_it.c_save
+2024-11-12 18:06:44,993 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_it.c
+2024-11-12 18:06:45,021 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_it.h_save
+2024-11-12 18:06:45,137 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_it.h
+2024-11-12 18:06:45,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_hal_msp.c_save
+2024-11-12 18:06:45,429 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\stm32f4xx_hal_msp.c
+2024-11-12 18:06:45,466 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\system.tmp_save
+2024-11-12 18:06:45,561 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\MXTmpFiles\system.tmp
+2024-11-12 18:06:45,643 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-11-12 18:06:45,772 [INFO] CodeEngine:335 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\stm32f4xx_hal_conf.h
+2024-11-12 18:06:45,909 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\main.h_save
+2024-11-12 18:06:46,076 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Inc\main.h
+2024-11-12 18:06:46,117 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\main.c_save
+2024-11-12 18:06:46,327 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\Core\Src\main.c
+2024-11-12 18:06:47,954 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 1398mS.
+2024-11-12 18:06:47,964 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-11-12 18:06:48,051 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-11-12 18:06:48,069 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-11-12 18:06:48,082 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-11-12 18:06:48,091 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-11-12 18:06:48,110 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-11-12 18:06:48,126 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-11-12 18:06:48,138 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST

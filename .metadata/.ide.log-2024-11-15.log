@@ -1,0 +1,42 @@
+2024-11-15 16:43:12,860 [INFO] WebApp:189 - Connection lost
+2024-11-15 16:43:15,148 [INFO] WebApp:186 - Connection restablished
+2024-11-15 16:51:23,801 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x20,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-15 17:07:58,818 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-15 17:08:05,290 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-15 17:09:26,659 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 573470848 Bytes (872415232)
+2024-11-15 17:09:31,208 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 663126144 Bytes (872415232)
+2024-11-15 17:09:31,408 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-15 17:09:31,410 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-15 17:09:31,410 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-11-15 17:09:31,410 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-15 17:09:31,410 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-15 17:09:31,410 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-15 17:09:31,413 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-11-15 17:09:31,624 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\MXTmpFiles\license.tmp_save
+2024-11-15 17:09:31,748 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\MXTmpFiles\license.tmp
+2024-11-15 17:09:31,890 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\MXTmpFiles\gpio.tmp_save
+2024-11-15 17:09:32,053 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\MXTmpFiles\gpio.tmp
+2024-11-15 17:09:32,316 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Src\stm32f4xx_it.c_save
+2024-11-15 17:09:32,522 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Src\stm32f4xx_it.c
+2024-11-15 17:09:32,553 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Inc\stm32f4xx_it.h_save
+2024-11-15 17:09:32,655 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Inc\stm32f4xx_it.h
+2024-11-15 17:09:32,737 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Src\stm32f4xx_hal_msp.c_save
+2024-11-15 17:09:32,912 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Src\stm32f4xx_hal_msp.c
+2024-11-15 17:09:32,960 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\MXTmpFiles\system.tmp_save
+2024-11-15 17:09:33,037 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\MXTmpFiles\system.tmp
+2024-11-15 17:09:33,119 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-11-15 17:09:33,293 [INFO] CodeEngine:335 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Inc\stm32f4xx_hal_conf.h
+2024-11-15 17:09:33,349 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-11-15 17:09:33,352 [WARN] CodeGenerator:4002 - IP not found : null
+2024-11-15 17:09:33,437 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Inc\main.h_save
+2024-11-15 17:09:33,579 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Inc\main.h
+2024-11-15 17:09:33,623 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Src\main.c_save
+2024-11-15 17:09:33,790 [INFO] CodeEngine:279 - Generated code: C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\Core\Src\main.c
+2024-11-15 17:09:35,404 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 1413mS.
+2024-11-15 17:09:35,410 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-11-15 17:09:35,514 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-11-15 17:09:37,015 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1606mS.
+2024-11-15 17:09:37,018 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 2mS.
+2024-11-15 17:09:37,027 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-15 18:13:38,747 [INFO] WebApp:189 - Connection lost
+2024-11-15 18:15:46,414 [INFO] WebApp:186 - Connection restablished
