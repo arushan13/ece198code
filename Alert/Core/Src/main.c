@@ -104,21 +104,20 @@ int main(void)
     /* USER CODE END WHILE */
 	  //LEDS BLINKING
 
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  alert = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);
 	 // delay(10);
 
-	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8)==1){
-		  alert = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);
+	  if(alert==1){
 		  time++;
 
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
 		  //HAL_Delay(100);
 
-		  if(time%60==0){
+		  if(time%60==0 && time!=0){
 			 // HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_RESET);
 		  }
 
-		  else if(time%30==0){
+		  else if(time%30==0 && time!=0){
 			 // HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
 
 		  }

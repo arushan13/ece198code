@@ -1,21 +1,17 @@
-22:05:06 **** Incremental Build of configuration Debug for project Alert ****
+20:11:58 **** Incremental Build of configuration Debug for project Alert ****
 make -j16 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:99:7: warning: variable 'alert' set but not used [-Wunused-but-set-variable]
-   99 |   int alert = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);
-      |       ^~~~~
 arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 Finished building target: Alert.elf
  
 arm-none-eabi-size  Alert.elf 
 arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
    text	   data	    bss	    dec	    hex	filename
-   8080	     12	   1644	   9736	   2608	Alert.elf
+   8056	     12	   1644	   9712	   25f0	Alert.elf
 Finished building: default.size.stdout
  
 Finished building: Alert.list
  
 
-22:05:08 Build Finished. 0 errors, 1 warnings. (took 1s.577ms)
+20:12:00 Build Finished. 0 errors, 0 warnings. (took 2s.213ms)
 

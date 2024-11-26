@@ -1639,3 +1639,1369 @@ arm-none-eabi-size  Ultrasonic.elf
   25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
 Finished building: default.size.stdout
  
+20:37:35 **** Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+21:22:20 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+21:23:40 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+21:24:23 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+21:25:44 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+21:26:16 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+21:26:39 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+21:42:31 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+21:43:21 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+21:44:09 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:48:15 **** Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-size  Alert.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8080	     12	   1644	   9736	   2608	Alert.elf
+Finished building: default.size.stdout
+ 
+17:49:31 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-size  Alert.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8080	     12	   1644	   9736	   2608	Alert.elf
+Finished building: default.size.stdout
+ 
+17:49:37 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-size  Alert.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8080	     12	   1644	   9736	   2608	Alert.elf
+Finished building: default.size.stdout
+ 
+17:50:07 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:51:20 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:53:34 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:53:50 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:57:56 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:59:35 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:00:27 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:00:51 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:01:52 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:06:27 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:08:10 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:08:37 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:08:49 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:09:31 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:10:35 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:11:21 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:12:30 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:13:28 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:15:40 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:22:43 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:24:33 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:29:01 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:29:47 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:30:09 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:31:21 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:42:13 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:45:25 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:47:18 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:47:44 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+18:49:16 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:52:12 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ", distance);
+      |                                          ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25796	    468	   2156	  28420	   6f04	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:53:48 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ", distance);
+      |                                          ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25796	    468	   2156	  28420	   6f04	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:55:07 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ", distance);
+      |                                          ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25796	    468	   2156	  28420	   6f04	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:58:47 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:50: warning: too many arguments for format [-Wformat-extra-args]
+  158 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:59:23 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:50: warning: too many arguments for format [-Wformat-extra-args]
+  158 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+18:59:40 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+19:11:19 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+19:12:14 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+19:14:08 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:50: warning: too many arguments for format [-Wformat-extra-args]
+  158 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:17:09 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25860	    468	   2164	  28492	   6f4c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:18:12 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25860	    468	   2164	  28492	   6f4c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:18:25 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25860	    468	   2164	  28492	   6f4c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+19:19:56 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25860	    468	   2164	  28492	   6f4c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:26:04 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:27:54 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25916	    468	   2164	  28548	   6f84	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:29:02 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25860	    468	   2164	  28492	   6f4c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:30:28 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25860	    468	   2164	  28492	   6f4c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:32:08 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25860	    468	   2164	  28492	   6f4c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:34:22 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+19:42:09 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+19:48:16 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-size  Alert.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8080	     12	   1644	   9736	   2608	Alert.elf
+Finished building: default.size.stdout
+ 
+19:50:26 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8120	     12	   1644	   9776	   2630	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+19:51:09 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8120	     12	   1644	   9776	   2630	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+19:53:06 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8112	     12	   1644	   9768	   2628	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+19:55:13 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8124	     12	   1644	   9780	   2634	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+19:56:10 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8136	     12	   1644	   9792	   2640	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+19:58:50 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8120	     12	   1644	   9776	   2630	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+20:02:46 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:7: warning: unused variable 'alert' [-Wunused-variable]
+   99 |   int alert = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);
+      |       ^~~~~
+../Core/Src/main.c:98:7: warning: unused variable 'time' [-Wunused-variable]
+   98 |   int time=0;
+      |       ^~~~
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   7860	     12	   1644	   9516	   252c	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+20:03:46 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:7: warning: variable 'alert' set but not used [-Wunused-but-set-variable]
+   99 |   int alert = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);
+      |       ^~~~~
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8080	     12	   1644	   9736	   2608	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+20:07:08 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-size  Alert.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8080	     12	   1644	   9736	   2608	Alert.elf
+Finished building: default.size.stdout
+ 
+20:08:56 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8068	     12	   1644	   9724	   25fc	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+20:11:02 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8056	     12	   1644	   9712	   25f0	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+20:11:58 **** Incremental Build of configuration Debug for project Alert ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "Alert.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Alert\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Alert.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Alert.elf
+ 
+arm-none-eabi-size  Alert.elf 
+arm-none-eabi-objdump -h -S Alert.elf  > "Alert.list"
+   text	   data	    bss	    dec	    hex	filename
+   8056	     12	   1644	   9712	   25f0	Alert.elf
+Finished building: default.size.stdout
+ 
+Finished building: Alert.list
+ 
+20:29:42 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:31:02 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:31:51 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+08:39:31 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+08:40:58 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+08:48:03 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+08:48:52 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+08:49:43 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:13:57 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:15:48 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:21:33 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:22:24 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:23:47 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:24:21 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:24:35 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:24:50 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:25:48 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:26:37 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:27:53 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:28:33 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:30:08 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+20:36:19 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:39:18 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25812	    468	   2156	  28436	   6f14	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+20:40:10 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:42: warning: too many arguments for format [-Wformat-extra-args]
+  150 |                         sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25796	    468	   2156	  28420	   6f04	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:26:20 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:27:45 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:32:30 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:33:04 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:34:00 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:35:49 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:36:11 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25908	    468	   2164	  28540	   6f7c	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:40:06 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:46:31 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:46:59 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:47:35 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:48:26 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-size  Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+17:50:58 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:52:07 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 
+17:55:47 **** Incremental Build of configuration Debug for project Ultrasonic ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:156:50: warning: too many arguments for format [-Wformat-extra-args]
+  156 |                                 sprintf(uartBuf, "ALERT ", distance);
+      |                                                  ^~~~~~~~
+arm-none-eabi-g++ -o "Ultrasonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Airagan\STM32CubeIDE\workspace_1.16.1\Ultrasonic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ultrasonic.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Ultrasonic.elf
+ 
+arm-none-eabi-size  Ultrasonic.elf 
+arm-none-eabi-objdump -h -S Ultrasonic.elf  > "Ultrasonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  25900	    468	   2164	  28532	   6f74	Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ultrasonic.list
+ 

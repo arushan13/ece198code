@@ -64,7 +64,8 @@ void usDelay(uint32_t uSec);
 //Speed of sound in cm/usec
 const float speedOfSound = 0.0343/2;
 float distance;
-int alert=0;
+float alert;
+int count=0;
 char uartBuf[100];
 
 /* USER CODE END 0 */
@@ -108,8 +109,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-     alert=0;
-     distance=100;
+
 	  /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -131,11 +131,13 @@ int main(void)
 		while(HAL_GPIO_ReadPin(ECHO_GPIO_Port, ECHO_Pin) == GPIO_PIN_SET)
 		{
 			numTicks++;
-			usDelay(2); //2.8usec
+			usDelay(2.83); //2.8usec
 		};
 
+
+
 		//4. Estimate distance in cm
-		distance = (numTicks + 0.0f)*2.8*speedOfSound;
+		distance = (numTicks + 0.0f)*2.83*speedOfSound;
 
 		//5. Print to UART terminal for debugging
 		sprintf(uartBuf, "Distance (cm)  = %.1f\r\n", distance);
@@ -145,25 +147,28 @@ int main(void)
 
 
 		//Alert Logic
-		if (distance <40){
-			alert=1;
-			sprintf(uartBuf, "ALERT ALERT ALERT ALERT", distance);
-			HAL_UART_Transmit(&huart2, (uint8_t *)uartBuf, strlen(uartBuf), 100);
 
-		}
+		alert+=distance;
 
-		else{
+		  if(count%3==0){
+
+			if (alert/3.0 < 91){
+				sprintf(uartBuf, "ALERT ", distance);
+				HAL_UART_Transmit(&huart2, (uint8_t *)uartBuf, strlen(uartBuf), 100);
+				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+
+			}
+
+			else if ((alert/3.0 > 91)){
+
+				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+			}
+
+
 			alert=0;
-			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
-		}
+		  }
 
-		if (alert==1){
-			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
-			//HAL_Delay(0.00001); //ON
-
-			//HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
-			//HAL_Delay(0.00001);
-		}
+		count++;
 
   }
   /* USER CODE END 3 */
