@@ -156,6 +156,9 @@ int main(void)
 				sprintf(uartBuf, "ALERT ", distance);
 				HAL_UART_Transmit(&huart2, (uint8_t *)uartBuf, strlen(uartBuf), 100);
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+				HAL_Delay(distance/5);
+				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+				HAL_Delay(distance/5);
 
 			}
 
