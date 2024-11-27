@@ -150,16 +150,16 @@ int main(void)
 
 		alert+=distance;
 
-		  if(count%3==0){
+		  if(count%5==0){
 
-			if (alert/3.0 < 91){
+			if (alert/5.0 < 91){
 				sprintf(uartBuf, "ALERT ", distance);
 				HAL_UART_Transmit(&huart2, (uint8_t *)uartBuf, strlen(uartBuf), 100);
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
 
 			}
 
-			else if ((alert/3.0 > 91)){
+			else if ((alert/5.0 > 91)){
 
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
 			}
